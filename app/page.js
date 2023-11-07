@@ -7,8 +7,10 @@ export default function Home() {
   return ( 
     <div>
       <Navbar />
+    <div>
       <PageTitle title="Home" /> 
       <PageContent content="Content" /> 
+    </div>
     </div>
   )
 }
